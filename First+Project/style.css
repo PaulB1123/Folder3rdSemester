@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+.conteinter {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: brown;
+    border-radius: 16px;
+}
+
+.conteinter .actor {
+color: white;
+margin-bottom: 0.5rem;
+text-align: center;
+font-family: 'Lora', serif; 
+font-size: 20px;
+font-weight: 600;
+}
+
+.conteinter .movie {
+    color: white;
+    text-align: center;
+    font-family: 'Lora', serif; 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main {
+     display: grid;
+        grid-template: auto / auto auto auto;
+
+}
+
+.hidden {
+    display: none;
+} 
