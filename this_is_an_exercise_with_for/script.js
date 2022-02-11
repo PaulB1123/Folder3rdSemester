@@ -42,6 +42,7 @@ for (let number4 = 1; number4 < 20; number4 += 2) {
 }
 
 console.log("");
+
 //////// exercise 5 //////////
 //////// From 1 to 16777216, but only counts off numbers  //////////
 console.log("From 1 to 16777216, but only counts off numbers");
@@ -51,6 +52,7 @@ for (let number5 = 1; number5 <= 16777216; number5 *= 2) {
 }
 
 console.log("");
+
 //////// exercise 6 //////////
 //////// From 111 to 138, in steps of 3 //////////
 
@@ -61,6 +63,7 @@ for (let number6 = 111; number6 <= 138; number6 += 3) {
 }
 
 console.log("");
+
 //////// exercise 7 //////////
 //////// From 100 down to 0 in steps of 10  //////////
 
