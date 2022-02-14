@@ -26,12 +26,12 @@ function init() {
 function loop() {
   displayData();
   modifyModel();
-  // if (i < 60) {
-  //     i++;
-  //     setTimeout(loop, 250);
-  // } else {
-  //     console.log('Loop finished');
-  // }
+  if (i < 60) {
+    i++;
+    setTimeout(loop, 250);
+  } else {
+    console.log("Loop finished");
+  }
   setTimeout(loop, 500);
 }
 
